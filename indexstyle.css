@@ -81,7 +81,16 @@ footer {
 }*/
 
 
-
+.header1{
+    z-index: 1;
+  overflow: hidden;
+  background-color: blue;
+  padding: 8px 8px;
+  position: sticky;
+    top: 0;
+    color: white;
+    text-align: center;
+}
 
 /* Style the header with a grey background and some padding */
 .header {
