@@ -1,0 +1,89 @@
+body {
+    background-color: #424242;
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: #212121;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 20px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.profile-card {
+    max-width: 350px;
+}
+
+.img-container {
+    padding: 70px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 20%;
+}
+
+.card-content {
+    padding: 0 0px;
+}
+
+.card-name {
+    margin: 0;
+    font-size: 24px;
+    color: #cfff04;
+}
+
+.card-details {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+
+.btn {
+    background-color: #cfff04;
+    color: #121212;
+    border-radius: 25px;
+    border: 0px;
+}
+
+.btn:hover {
+    background-color: #121212;
+    color: #cfff04;
+}
+
+.video-container {
+    width: 100%;
+    height: auto;
+}
+
+.card-heading {
+    font-size: 1.5em;
+    margin: 15px 0;
+    color: #cfff04;
+}
+
+/* Responsive styling */
+@media (max-width: 767px) {
+    .card-container .col-12 {
+        margin-bottom: 20px;
+    }
+}
+
+img:hover {
+     background-color: #424242;
+     border-radius: 15%;
+}
